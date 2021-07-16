@@ -18,7 +18,6 @@ import java.util.Set;
  */
 public class RevenueService {
 
-    @Autowired
     private final PersonVehicleRepository vehicleRepository;
 
     public Set<Vehicle> findAllVehiclesByPerson(Optional<Integer> person) {

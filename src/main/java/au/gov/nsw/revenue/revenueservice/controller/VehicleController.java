@@ -21,7 +21,6 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class VehicleController {
 
-    @Autowired
     private final RevenueService service;
 
     @GetMapping("/")

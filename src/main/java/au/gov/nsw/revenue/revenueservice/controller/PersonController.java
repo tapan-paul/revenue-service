@@ -19,7 +19,6 @@ import java.util.Optional;
  */
 public class PersonController {
 
-    @Autowired
     private final RevenueService service;
 
     @PostMapping(value = "/add-person", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
